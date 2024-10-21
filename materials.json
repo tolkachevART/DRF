@@ -1,0 +1,62 @@
+[
+{
+    "model": "materials.course",
+    "pk": 16,
+    "fields": {
+        "name": "Курс 10",
+        "preview": "",
+        "description": "Краткое описание курса 27"
+    }
+},
+{
+    "model": "materials.course",
+    "pk": 17,
+    "fields": {
+        "name": "Курс 5",
+        "preview": "",
+        "description": "Краткое описание курса 21"
+    }
+},
+{
+    "model": "materials.course",
+    "pk": 18,
+    "fields": {
+        "name": "Курс 40",
+        "preview": "",
+        "description": "Краткое описание курса 74"
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 6,
+    "fields": {
+        "name": "Урок 42",
+        "preview": "",
+        "description": "Описание урока 52",
+        "video_link": "https://example.com/lesson_17",
+        "course": 18
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 7,
+    "fields": {
+        "name": "Урок 4",
+        "preview": "",
+        "description": "Описание урока 5",
+        "video_link": "https://example.com/lesson_90",
+        "course": 16
+    }
+},
+{
+    "model": "materials.lesson",
+    "pk": 8,
+    "fields": {
+        "name": "Урок 29",
+        "preview": "",
+        "description": "Описание урока 64",
+        "video_link": "https://example.com/lesson_91",
+        "course": 17
+    }
+}
+]

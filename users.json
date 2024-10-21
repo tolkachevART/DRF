@@ -1,0 +1,86 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$LdsYexr4pDAtxDcrIINqyh$eq2YnY9y8OkzVVfVsSwYyjFvTmSW3ilhqVG7S/AdQb4=",
+        "last_login": "2024-10-21T07:39:13.970Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-10-19T21:37:30.231Z",
+        "email": "admin@gmail.com",
+        "phone": null,
+        "city": null,
+        "avatar": "",
+        "token": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 21,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$MuRvtKJyMFhGlB1ltZXwDe$2zhkq2INQbYi7Wqd92mVzcAd6Lh9xQylpRNKzU2zod8=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-21T08:42:29.029Z",
+        "email": "user98@gmail.com",
+        "phone": null,
+        "city": null,
+        "avatar": "",
+        "token": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 22,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$iwVe1VTXjB5Jg68GOA0Xhv$o+TC7Qpv0h5LwXDij96DKqpehd5OQYY1OzuavNHWztI=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-21T08:42:29.298Z",
+        "email": "user24@gmail.com",
+        "phone": null,
+        "city": null,
+        "avatar": "",
+        "token": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 23,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$0nks2d69wOA0iSwLoiGBuL$GdY6+qHy5UTcxeID7/2Hkjj9S4KDRzvX06BtbkFJ7c8=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-21T08:42:29.533Z",
+        "email": "user65@gmail.com",
+        "phone": null,
+        "city": null,
+        "avatar": "",
+        "token": null,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
