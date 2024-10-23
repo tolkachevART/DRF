@@ -10,8 +10,14 @@ class PaymentSerializer(ModelSerializer):
 
 
 class UserSerializer(ModelSerializer):
-    payments = PaymentSerializer(many=True, read_only=True, source='payment_set')
+    class Meta:
+        model = User
+        fields = ("id", "email", "city", "avatar")
+
+
+class UserProfileSerializer(ModelSerializer):
+    payments = PaymentSerializer(many=True, read_only=True, source="user_payments")
 
     class Meta:
         model = User
-        fields = ("email", "phone", "city", "payments", "password")
+        fields = ("id", "email", "phone", "city", "avatar", "payments", "date_joined", "last_name")
