@@ -17,7 +17,9 @@ pillow = "^11.0.0"
 django-filter = "^24.3"
 djangorestframework-simplejwt = "^5.3.1"
 stripe = "^11.2.0"
-
+celery = "5.4.0"
+redis = "^5.2.0."
+django-celery-beat = "2.7.0"
 
 [build-system]
 requires = ["poetry-core"]
