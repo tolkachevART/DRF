@@ -16,6 +16,7 @@ class Course(models.Model):
         **NULLABLE,
         verbose_name="Владелец курса"
     )
+    last_update = models.DateTimeField(auto_now=True, verbose_name="Последнее изменение")
 
     class Meta:
         verbose_name = "Курс"
@@ -40,6 +41,7 @@ class Lesson(models.Model):
         **NULLABLE,
         verbose_name="Владелец урока"
     )
+    updated_at = models.DateTimeField(auto_now=True, verbose_name="Последнее изменение урока")
 
     class Meta:
         verbose_name = "Урок"
