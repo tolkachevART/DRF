@@ -27,6 +27,8 @@ class User(AbstractUser):
         help_text="Загрузите изображение"
     )
     token = models.CharField(max_length=100, verbose_name="Token", **NULLABLE)
+    last_login = models.DateTimeField(auto_now_add=True, **NULLABLE, verbose_name="Последний вход в аккаунт")
+
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []
 
